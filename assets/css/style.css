@@ -262,7 +262,12 @@ fieldset {
 	width:125px;
 }
 
-
+/*----------- Media Queries --------*/
+@media screen and (max-width:980px){
+.wrapper {
+		width: 100%
+	}
+#l
 
 
 
