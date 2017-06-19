@@ -263,9 +263,6 @@ input[type=submit] {
     margin-left: 5%;
   }
 
-  #connect {
-
-  }
 
   nav {
     margin-right: 10%;
@@ -274,8 +271,10 @@ input[type=submit] {
   #logo {
     margin-left: 10%;
   }
-
-
+  /*Portfolio*/
+  .work {
+    width:100%;
+  }
 }
 
 /* For screens that are smaller than 768px and larger than 640px*/
