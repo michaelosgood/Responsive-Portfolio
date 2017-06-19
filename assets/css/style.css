@@ -243,19 +243,53 @@ input[type=submit] {
 
 /* ---------Beginning of Media Queries--------------*/
 @media screen and (max-width:980px) {
- 
+  * {
+  box-sizing: border-box;
+  }
+  #main-container {
+    position:relative;
+    max-width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .main-section {
+    max-width:60%;
+  }
+
+  .auth-image {
+    width:50%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  #connect {
+
+  }
+
+  nav {
+    margin-right: 10%;
+  }
+
+  #logo {
+    margin-left: 10%;
+  }
+
 
 }
 
-/* For screen that are smaller than 768px and larger than 640px*/
+/* For screens that are smaller than 768px and larger than 640px*/
 @media screen and (max-width:768px) {
   #main-container {
     position: static;
-    max-width: auto;
+    max-width: 90%;
     width: 85%;
     text-align: left;
     margin-left:auto;
     margin-right:auto;
+  }
+  .main-section {
+    max-width:100%;
   }
 
   #logo {
@@ -274,8 +308,7 @@ input[type=submit] {
   }
   
   nav {
-    margin-right: 15px;
-
+    margin-right:10%;
   }
   
   #connect {
@@ -299,6 +332,7 @@ input[type=submit] {
 /* For screens that are 640px or smaller 
   -still need to figure out how to make the portfolio images center */
 @media screen and (max-width:640px) {
+  
   header {
     position: static;
   }
@@ -312,12 +346,13 @@ input[type=submit] {
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
+    margin-right: 0%;
   }
 
   #main-container {
     position: static;
     padding-top:180px;
-    width: 95%;
+    width: 100%;
     text-align: left;
     font-size: 15px;
   }
@@ -330,7 +365,7 @@ input[type=submit] {
   }
   
   .auth-image {
-    width:95%
+    width:95%;
   }
   
   footer {
