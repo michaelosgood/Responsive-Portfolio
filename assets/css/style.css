@@ -270,6 +270,7 @@ input[type=submit] {
   }
 
   footer {
+    padding: 38px 0;
     bottom:0;
     width:100%;
   }
@@ -303,6 +304,7 @@ input[type=submit] {
   }
 
   footer {
+    padding: 38px 0;
     bottom:0;
     width:100%;
   }
@@ -336,6 +338,7 @@ input[type=submit] {
   }
 
   footer {
+    padding: 38px 0;
     bottom:0;
     width:100%;
   }
@@ -384,6 +387,7 @@ input[type=submit] {
     width:100%;
   }
   footer {
+    position:static;
     bottom:0;
     width:100%;
   }
@@ -487,6 +491,4 @@ input[type=submit] {
     width:60%;
     left:20%;
   }
-
-
 }
