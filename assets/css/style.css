@@ -242,15 +242,9 @@ input[type=submit] {
 }
 
 /* ---------Beginning of Media Queries--------------*/
-@media screen and (max-width:980px) {
+@media screen and (max-width:1880px) {
   * {
   box-sizing: border-box;
-  }
-  #main-container {
-    position:relative;
-    max-width: auto;
-    padding-left: 10%;
-    padding-right: 10%;
   }
 
   .main-section {
@@ -263,6 +257,120 @@ input[type=submit] {
     margin-left: 5%;
   }
 
+  nav {
+    margin-right: 10%;
+  }
+
+  #logo {
+    margin-left: 0;
+  }
+  /*Portfolio*/
+  .work {
+    width:100%;
+  }
+
+  footer {
+    bottom:0;
+    width:100%;
+  }
+}
+
+@media screen and (max-width:1580px) {
+  * {
+  box-sizing: border-box;
+  }
+
+  .main-section {
+    max-width:60%;
+  }
+
+  .auth-image {
+    width:50%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  nav {
+    margin-right: 10%;
+  }
+
+  #logo {
+    margin-left: 0;
+  }
+  /*Portfolio*/
+  .work {
+    width:100%;
+  }
+
+  footer {
+    bottom:0;
+    width:100%;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  * {
+  box-sizing: border-box;
+  }
+
+  .main-section {
+    max-width:60%;
+  }
+
+  .auth-image {
+    width:50%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  nav {
+    margin-right: 10%;
+  }
+
+  #logo {
+    margin-left: 0;
+  }
+  /*Portfolio*/
+  .work {
+    width:100%;
+  }
+
+  footer {
+    bottom:0;
+    width:100%;
+  }
+}
+
+@media screen and (max-width:980px) {
+  * {
+  box-sizing: border-box;
+  }
+  #main-container {
+    position:relative;
+    max-width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .main-section {
+    width: 100%;
+    float:left;
+    max-width:100%;
+    text-align: center;
+  }
+
+  .auth-image {
+    width:50%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .sidebar {
+    width: 100%;
+    float:left;
+    max-width:100%;
+    text-align: center;
+  }
+
 
   nav {
     margin-right: 10%;
@@ -273,6 +381,10 @@ input[type=submit] {
   }
   /*Portfolio*/
   .work {
+    width:100%;
+  }
+  footer {
+    bottom:0;
     width:100%;
   }
 }
@@ -317,7 +429,6 @@ input[type=submit] {
   }
 
   footer {
-    position:static;
     bottom:0;
     width:100%;
   }
